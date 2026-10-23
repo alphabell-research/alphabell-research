@@ -1,0 +1,29 @@
+name: Qwen template review
+
+on:
+  push:
+    paths:
+      - 'contributions/qwen-flash-next-pr76/**'
+      - '.github/workflows/qwen-template-review.yml'
+  pull_request:
+    paths:
+      - 'contributions/qwen-flash-next-pr76/**'
+      - '.github/workflows/qwen-template-review.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render-matrix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.11'
+      - name: Install Jinja
+        run: python -m pip install -r contributions/qwen-flash-next-pr76/requirements.txt
+      - name: Reproduce pinned template matrix
+        run: python contributions/qwen-flash-next-pr76/qwen_pr76_review.py --output contributions/qwen-flash-next-pr76/results.json

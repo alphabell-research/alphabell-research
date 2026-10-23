@@ -1,0 +1,22 @@
+{
+  "project": "alphaBell independent Qwen3.8-Flash-Next PR76 template review",
+  "source_repository": "Qwen/Qwen3.8-Flash-Next",
+  "base_revision": "de4b8e4d43b917e7706784d8bb445c9af86a3540",
+  "pr_head_revision": "4381e064c58fa0d453f0630939b04140100ce0f7",
+  "expected_matrix_cases": 1196,
+  "expected_categories": {
+    "accepted-input byte identity": 448,
+    "new leading-system rendering equals single-merged control": 640,
+    "late-system rejection unchanged": 96,
+    "existing invalid-input rejection unchanged": 12
+  },
+  "jinja2_version": "3.1.6",
+  "scope": "Offline text rendering and tokenizer-configuration consistency. No inference or application integration.",
+  "script_sha256": "62b8350797397949d83bddf605cbe7dbde599c9c02466930d3f3064c96d0f007",
+  "source_hashes": {
+    "base-chat_template.jinja": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+    "pr76-chat_template.jinja": "8d5e067223749842f5233b23efd5eafda763bf670edeb8d0a62eca3b9b47340d",
+    "base-tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+    "pr76-tokenizer_config.json": "f6e749346e1d8ad055f68c8e0aaf30469d3291d2829ac40635eb26061ec8f60c"
+  }
+}
