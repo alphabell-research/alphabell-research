@@ -12,3 +12,7 @@ Research models, failure traces and tools for testing model behavior.
 [Hugging Face](https://huggingface.co/alphabell) · [Lab](https://alphabell.com) · [Three tiny bugs that broke Flint's games](https://huggingface.co/blog/alphabell/flint-repair-clinic)
 
 Bring a reproducible failure to the [repair challenge](https://huggingface.co/spaces/alphabell/Flint-Repair-Clinic/discussions/4): the source, exact error and what you expected to happen.
+
+## Research reviews
+
+[Qwen3.8-Flash-Next PR 76](contributions/qwen-flash-next-pr76): a reproducible offline review of leading-system-message handling, with 1,196 configuration cases across pinned base and proposed templates.
