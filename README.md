@@ -4,6 +4,8 @@ Research models, failure traces and tools for testing model behavior.
 
 | Project | What you can do |
 | --- | --- |
+| [MOSS Layout Studio](https://huggingface.co/spaces/alphabell/MOSS-Layout-Studio) | Draw layouts and export MOSS-Image prompt JSON. |
+| [DeepSeek Prompt Parity](https://huggingface.co/spaces/alphabell/DeepSeek-Prompt-Parity) | Explore exact prompt differences at the tool-history boundary. |
 | [Flint Repair Clinic](https://huggingface.co/spaces/alphabell/Flint-Repair-Clinic) | Fix real coding failures and play the recorded repairs. |
 | [Flint Request Doctor](https://huggingface.co/spaces/alphabell/Flint-Request-Doctor) | Find settings Rec MLX rejects or silently ignores. |
 | [Flint Arcade](https://huggingface.co/spaces/alphabell/Flint-Arcade) | Describe a strange game, play it and remix it. |
